@@ -6,7 +6,7 @@ const chkPrime = (n) => {
 };
 
 const printPrime = (range) => {
-  var arrPrime = [];
+  let arrPrime = [];
   for (i = 1; i <= range; i++) {
     chkPrime(i) == true ? arrPrime.push(i) : "";
   }
